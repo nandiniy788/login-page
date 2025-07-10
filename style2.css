@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     background: url("images/nature.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    width: 500px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color:white;
+    padding: 30px 40px;
+    border-radius: 10px;
+ } /* Add rounded corners for better look */
+
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    position: relative; /* Ensure the positioning context for the icon */
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 40px; /* Create ellipse effect */
+    padding: 0 15px;
+    background: transparent;
+}
+
+.input-box input {
+    flex: 1;
+    font-size: 20px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    font-size: 20px;
+    color:white;
+    margin-left: 10px;
+}
+
+.remember-forgot  {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.remember-forgot label {
+    color: #fff;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background:white; /* Button color */
+    border: none;
+    border-radius: 25px; /* Rounded button */
+    color:black;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: gray; /* Darker shade on hover */
+}
+
+.registater-link  {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.registater-link label {
+    color: #fff;
+}
+
